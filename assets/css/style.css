@@ -238,6 +238,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+  opacity: 70%;
 }
 
 #hero p {
@@ -251,12 +252,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #008000;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #008000;
 }
 
 @media (min-width: 1024px) {
   #hero {
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
 }
 
@@ -319,21 +320,25 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #173b6c;
+
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
+
 }
 
 .about .content ul li {
   padding-bottom: 10px;
+
 }
 
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #149ddd;
+  
 }
 
 .about .content p:last-child {
